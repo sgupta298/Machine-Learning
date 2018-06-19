@@ -1,2 +1,2 @@
 # Machine-Learning
-Python programs for machine for Mahine Learning
+Python programs for Mahine Learning
