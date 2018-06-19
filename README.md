@@ -1,3 +1,2 @@
 # Machine-Learning
-Python programs for machine for ML
-Here are some programs to learn machine learning usin python
+Python programs for machine for Mahine Learning
