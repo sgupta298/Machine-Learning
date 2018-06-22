@@ -23,6 +23,8 @@ for name in users :
         lastupdated.append(1/3600)
     elif "hour" in data :
         lastupdated.append(1)
+    elif "just now" in data:
+        lastupdated.append(0)    
     else:
         lastupdated.append(int(data[0]))
 print(lastupdated)
