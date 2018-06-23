@@ -9,7 +9,7 @@ for name in users :
     wd.get('http://www.github.com/'+name+'?tab=repositories')
     last=wd.find_element_by_tag_name('relative-time').text
     data = last.split()
-    if "a day" in data:
+    if "a" and "day" in data:
         lastupdated.append(24)
     elif "days" in data:
         lastupdated.append(int(data[0])*24)
